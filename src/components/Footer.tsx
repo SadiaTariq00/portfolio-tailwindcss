@@ -7,9 +7,9 @@ export default function Footer() {
   return (
    
 
-        <div className="bg-amber-900 hover:bg-amber-700 text-neutral-300 text-center py-4">
+        <div className="bg-teal-700 text-neutral-300 text-center py-4">
           <p>
-            &copy; Sadia | All Rights Reserved 2024.
+            &copy; Sadia | All Rights Reserved 2025.
           </p>
         </div>
       
