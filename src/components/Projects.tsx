@@ -1,5 +1,6 @@
 import React from 'react';
 import Heading from './Heading';
+import Image from 'next/image';
 
 const data = [
   {
@@ -43,7 +44,7 @@ export default function Projects() {
       <div className="grid gap-10 md:grid-cols-1 lg:grid-cols-2">
         {data.map((project) => (
           <div key={project.id} className="relative bg-gradient-to-br from-gray-100 to-gray-300 shadow-xl rounded-2xl overflow-hidden transform transition hover:scale-105 hover:shadow-2xl">
-            <img src={project.img} alt={project.title} className="w-full h-52 object-cover rounded-t-2xl" />
+            <Image src={project.img} alt={project.title} className="w-full h-52 object-cover rounded-t-2xl" />
             <div className="p-6">
               <h3 className="text-2xl font-bold mb-2 text-gray-800">{project.title}</h3>
               <p className="text-sm text-gray-700 mb-4">{project.desc}</p>
